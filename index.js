@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a palavra-chave utilizada para declarar uma variável em JavaScript?",
-      respostas: [
-        "var",
-        "let",
-        "const"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual dos seguintes métodos é usado para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "push()",
-        "pop()",
-        "shift()"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função utilizada para converter uma string em um número inteiro em JavaScript?",
-      respostas: [
-        "parseInt()",
-        "parseFloat()",
-        "Number()"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual operador é utilizado para verificar se dois valores são iguais em valor e tipo em JavaScript?",
-      respostas: [
-        "==",
-        "===",
-        "="
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
-      respostas: [
-        "pop()",
-        "shift()",
-        "splice()"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função utilizada para imprimir algo no console em JavaScript?",
-      respostas: [
-        "print()",
-        "log()",
-        "console()"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual símbolo é usado para comentar uma única linha em JavaScript?",
-      respostas: [
-        "//",
-        "/* */",
-        "'"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual método é usado para juntar os elementos de um array em uma string em JavaScript?",
-      respostas: [
-        "join()",
-        "concat()",
-        "slice()"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o nome da função que é chamada automaticamente quando um objeto é criado em JavaScript?",
-      respostas: [
-        "start()",
-        "init()",
-        "constructor()"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual função é usada para encontrar a posição de uma substring dentro de uma string em JavaScript?",
-      respostas: [
-        "search()",
-        "indexOf()",
-        "find()"
-      ],
-      correta: 1
-    }
-  ];
+  {
+    pergunta: "Qual é o órgão responsável pela filtragem do sangue no corpo humano?",
+    respostas: [
+      "Fígado",
+      "Rim",
+      "Pulmão"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome do tecido que reveste internamente os ossos longos?",
+    respostas: [
+      "Tendão",
+      "Cartilagem",
+      "Medula Óssea"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do ácido encontrado no estômago humano?",
+    respostas: [
+      "Ácido Cítrico",
+      "Ácido Sulfúrico",
+      "Ácido Clorídrico"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do músculo que separa a cavidade torácica da abdominal?",
+    respostas: [
+      "Músculo Esternocleidomastoideo",
+      "Músculo Diafragma",
+      "Músculo Esquelético"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome do hormônio responsável pelo controle do nível de açúcar no sangue?",
+    respostas: [
+      "Insulina",
+      "Adrenalina",
+      "Testosterona"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do tecido responsável pela transmissão de impulsos nervosos no corpo?",
+    respostas: [
+      "Epitélio",
+      "Nervo",
+      "Neurônio"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do osso que forma o calcanhar?",
+    respostas: [
+      "Tíbia",
+      "Fêmur",
+      "Calcâneo"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do órgão responsável pela produção de insulina no corpo?",
+    respostas: [
+      "Pâncreas",
+      "Fígado",
+      "Baço"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do fluido que lubrifica as articulações no corpo humano?",
+    respostas: [
+      "Sangue",
+      "Linfático",
+      "Sinovial"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome da glândula que regula o metabolismo no corpo humano?",
+    respostas: [
+      "Pituitária",
+      "Tireoide",
+      "Suprarrenal"
+    ],
+    correta: 1
+  }
+];
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
